@@ -4,6 +4,7 @@ public class Speaker {
 
     private String firstName;
     private String lastName;
+    private double seedNumber;
 
     public String getFirstName() {
         return firstName;
@@ -19,5 +20,13 @@ public class Speaker {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public double getSeedNumber() {
+        return seedNumber;
+    }
+
+    public void setSeedNumber(double seedNumber) {
+        this.seedNumber = seedNumber;
     }
 }
